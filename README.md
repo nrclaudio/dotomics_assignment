@@ -25,7 +25,7 @@ Notebook workflows to slice a reference chromosome into fixed windows, analyze G
   - `outputs/windows.fasta`
   - `outputs/windows.tsv`
 - **Embedding extraction:** open `notebooks/extract_embeddings_agro_transformer.ipynb`. Set `windows_fasta_path`/`windows_tsv_path` to your exported files in `outputs/`, then run all cells. It saves `outputs/window_embeddings_agro_transformer.npz` (`ids`, `embeddings`). Optional cells merge GC metadata and compute a quick correlation.
-- **Model config helper:** run `python scripts/print_model_config.py` (or `--model your/model-id`) to print architecture fields.
+
 
 ## Project structure
 - `data/Arabidopsis_thaliana.TAIR10.dna.chromosome.1.fa.gz`: input chromosome FASTA.
