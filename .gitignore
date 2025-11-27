@@ -1,0 +1,26 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Environments
+.env
+.venv
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Outputs and large artifacts
+outputs/*.npz
+outputs/*.fasta
+outputs/*.tsv
+outputs/*.csv
+
+# Data (keep repo small; include via docs or download)
+data/*.fa
+data/*.fa.gz
+data/*.fasta
+data/*.fasta.gz
+data/*.fastq
+data/*.fastq.gz
