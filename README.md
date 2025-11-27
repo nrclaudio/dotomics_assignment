@@ -30,7 +30,7 @@ Notebook workflows to slice a reference chromosome into fixed windows, analyze G
 ## Project structure
 - `data/Arabidopsis_thaliana.TAIR10.dna.chromosome.1.fa.gz`: input chromosome FASTA.
 - `notebooks/fastq_exploration.ipynb`: windowing, GC/N stats, plots, export to FASTA/TSV.
-- `notebooks/extract_embeddings_agro_transformer.ipynb`: load exported windows, embed with Agro Nucleotide Transformer, save NPZ, GC join/correlation.
+- `notebooks/extract_embeddings_agro_transformer.ipynb`: load exported windows, embed with Agro Nucleotide Transformer, save NPZ, GC join/correlation. **This is also where the project’s main takeaways, interpretation, and final conclusions are summarized.**
 - `outputs/`: window exports and embedding artifacts.
 - `requirements.txt`: Python dependencies.
 
