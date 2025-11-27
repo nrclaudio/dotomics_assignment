@@ -1,6 +1,6 @@
 # Dotomics Assignment
 
-Notebook workflows to slice a reference chromosome into fixed windows, analyze GC content, export the windows for downstream use, and embed each window with the Agro Nucleotide Transformer (1B). A helper script prints model config details from Hugging Face.
+Notebook workflows to slice a reference chromosome into fixed windows, analyze GC content, export the windows for downstream use, and embed each window with the Agro Nucleotide Transformer (1B).
 
 ## Setup
 - Clone the repo, then create and activate a conda environment:
