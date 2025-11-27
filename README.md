@@ -28,11 +28,10 @@ Notebook workflows to slice a reference chromosome into fixed windows, analyze G
 - **Model config helper:** run `python scripts/print_model_config.py` (or `--model your/model-id`) to print architecture fields.
 
 ## Project structure
-- `data/Arabidopsis_thaliana.TAIR10.dna.chromosome.1.fa.gz`: input chromosome FASTA (compressed).
+- `data/Arabidopsis_thaliana.TAIR10.dna.chromosome.1.fa.gz`: input chromosome FASTA.
 - `notebooks/fastq_exploration.ipynb`: windowing, GC/N stats, plots, export to FASTA/TSV.
-- `notebooks/extract_embeddings_agro_transformer.ipynb`: load exported windows, embed with Agro Nucleotide Transformer, save NPZ, optional GC join/correlation.
-- `outputs/`: window exports and embedding artifacts (generated).
-- `scripts/print_model_config.py`: print Hugging Face model config fields.
+- `notebooks/extract_embeddings_agro_transformer.ipynb`: load exported windows, embed with Agro Nucleotide Transformer, save NPZ, GC join/correlation.
+- `outputs/`: window exports and embedding artifacts.
 - `requirements.txt`: Python dependencies.
 
 ## Input data
